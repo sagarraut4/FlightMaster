@@ -1,0 +1,10 @@
+{
+  "root": {
+    "info": {
+      "validRequest": "Valid request to {0} endpoint"
+    },
+    "error": {
+      "unauthorizedRequest": "Unauthorized request to {0} endpoint"
+    }
+  }
+}

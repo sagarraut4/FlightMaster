@@ -1,0 +1,7 @@
+﻿namespace FlightMaster.DataAccess.Entities
+{
+    public interface IEntity
+    {
+        int Id { get; set; }
+    }
+}

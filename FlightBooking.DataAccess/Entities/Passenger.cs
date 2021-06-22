@@ -1,0 +1,14 @@
+﻿using FlightBooking.DataAccess.Entities.Common;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace FlightBooking.DataAccess.Entities
+{
+    [Table("Passenger")]
+    public class Passenger : Entity
+    {
+        [Column("first_name")]
+        public string FirstName { get; set; }
+        [Column("last_name")]
+        public string LastName { get; set; }
+    }
+}

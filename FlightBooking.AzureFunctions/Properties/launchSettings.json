@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "1.FlightBooking.AzureFunctions": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7075 --pause-on-error"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "47c825d0-3319-48ef-8403-f4e5c70a1e85",
+    "Logging": "Console",
+    "CorrelationI": "CorrelationId",
+    "Message": "Message",
+    "MessageType": "MessageType",
+    "TelemetryMessage": "Serverless azure functions traces",
+    "SqlConnectionString": "Server=tcp:azuredigipod.database.windows.net,1433;Initial Catalog=FlightMaster;Persist Security Info=False;User ID=xpanxion;Password=December@2020;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "RedisConnectionString": "flightbookingcache.redis.cache.windows.net:6380,password=YP1TesJZMVJyTPfcAs6gkBCfSZCF2q+rLVk0VTdbePY=,ssl=True,abortConnect=False",
+    "RedisExpirationDays": "1",
+    "Audience": "https://flightmasterazurefunctions.azurewebsites.net",
+    "Issuer": "https://sts.windows.net/da47da7b-c2b5-495f-8801-a3b8ab78c674/",
+    "BlobConnectionString": "DefaultEndpointsProtocol=https;AccountName=flightmasterazurefunctio;AccountKey=qm+qZihqO8irYPb8iRxTig31nt9LP9IswtcHe2vQmFO5EzigiRdzvHl73C2TvFoqJyEe1xyRlM+QsvPhoz4UZA==;EndpointSuffix=core.windows.net",
+    "BlobContainerName": "logs",
+    "fileConnectionString": "DefaultEndpointsProtocol=https;AccountName=fileshareendpoints;AccountKey=DfDMuNuXjY+IyJiacYB+sR1ZcO7S0beR7gY0uve4vLNTNPlBQCxkwF+AsZ8+E/vWEi4G1nburCcWRfJu53DhIw==;EndpointSuffix=core.windows.net",
+    "fileContainerName": "fileshare",
+    "ClientID": "749a5ee3-e95f-4d90-8571-766e554c3e8d",
+    "ClientSecret": "mixur4~3tj-36R.R6r9~mG6v4.h0HwU~GY",
+    "KeyVaultName" :  "https://keyvaultflightbooking-sm.vault.azure.net"
+
+  }
+}
